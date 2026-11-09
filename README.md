@@ -1,67 +1,26 @@
 <div align="center">
 
-# ⚡ VSPARK 2026 — Web Development Competition & Evaluation Portal
-
-**The Official National Hackathon, Submission, and Automated Evaluation Management System**  
-*COMSATS University Islamabad, Vehari Campus — Department of Computer Science*
-
-[![Next.js](https://img.shields.io/badge/Next.js-16.4.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19.3.0-blue?style=for-the-badge&logo=react)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-Database_&_Auth-3ecf8e?style=for-the-badge&logo=supabase)](https://supabase.com/)
-[![Nodemailer](https://img.shields.io/badge/Nodemailer-SMTP_System-22c55e?style=for-the-badge&logo=gmail)](https://nodemailer.com/)
-[![Live App](https://img.shields.io/badge/Live_Portal-vspark--comp--web.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vspark-comp-web.vercel.app/)
-[![License](https://img.shields.io/badge/License-Academic_Use-purple?style=for-the-badge)](#license)
-
-<br />
-
-### 🌐 Live Production URL: [https://vspark-comp-web.vercel.app/](https://vspark-comp-web.vercel.app/)
-
----
-
-### 🎬 Live Demo & Video Walkthrough
-
-<!-- ========================================================================= -->
-<!-- 🎥 LOCAL PROJECT VIDEO (vspark.mp4)                                       -->
-<!-- Place your video file 'vspark.mp4' directly in this repository root!     -->
-<!-- ========================================================================= -->
-
-<div align="center">
-  <video src="./vspark.mp4" controls width="94%" style="border-radius: 12px; box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3); border: 1px solid #334155;">
-    Your browser does not support the video tag. You can <a href="./vspark.mp4">download or watch vspark.mp4 here</a>.
-  </video>
-  <br /><br />
-  <p>
-    🎥 <strong>Video Walkthrough:</strong> <code>vspark.mp4</code> (Local Repository Root) &nbsp;|&nbsp; 
-    🌐 <strong>Live Portal:</strong> <a href="https://vspark-comp-web.vercel.app/" target="_blank"><strong>https://vspark-comp-web.vercel.app/</strong></a>
-  </p>
-</div>
-
----
-
-</div>
-
 <br />
 
 ## 📖 Table of Contents
 
 1. [Project Overview](#-project-overview)
-2. [Key Highlights & Architecture](#-key-highlights--architecture)
+2. [Key Highlights &amp; Architecture](#-key-highlights--architecture)
 3. [Feature Showcase](#-feature-showcase)
    - [Student Workspace](#1-student-workspace)
-   - [Admin Control Hub & Jury Panel](#2-admin-control-hub--jury-panel)
-   - [Rules & Guidelines Synchronization](#3-rules--guidelines-synchronization)
+   - [Admin Control Hub &amp; Jury Panel](#2-admin-control-hub--jury-panel)
+   - [Rules &amp; Guidelines Synchronization](#3-rules--guidelines-synchronization)
 4. [Official 100-Marks Evaluation Rubric](#-official-100-marks-evaluation-rubric)
 5. [Tech Stack](#-tech-stack)
-6. [Folder & Directory Structure](#-folder--directory-structure)
-7. [Getting Started & Local Setup](#-getting-started--local-setup)
+6. [Folder &amp; Directory Structure](#-folder--directory-structure)
+7. [Getting Started &amp; Local Setup](#-getting-started--local-setup)
    - [Prerequisites](#prerequisites)
    - [Installation](#step-by-step-installation)
    - [Environment Variables (.env.local)](#environment-variables-configuration)
    - [Supabase Database Schema Setup](#supabase-database-schema-setup)
 8. [Production Deployment (Vercel)](#-production-deployment-vercel)
-9. [Security, Integrity & Rules](#-security-integrity--rules)
-10. [Faculty & Organizing Committee](#-faculty--organizing-committee)
+9. [Security, Integrity &amp; Rules](#-security-integrity--rules)
+10. [Faculty &amp; Organizing Committee](#-faculty--organizing-committee)
 
 <br />
 
@@ -133,7 +92,7 @@
 - **Timer & Competition Control (`/admin/settings`):** Set competition start time, duration, extend time dynamically, or trigger emergency freeze.
 - **Task Brief Management (`/admin/task`):** Publish task statements, problem scenarios, API contracts, and downloadable PDF problem statements.
 - **Student Verification Center (`/admin/students`):** Review registered teams, inspect fee receipt URLs, and verify or reject accounts with automated email triggers.
-- **Jury Evaluation Sheet (`/admin/evaluations`):** 
+- **Jury Evaluation Sheet (`/admin/evaluations`):**
   - Dynamic score inputs matching the official 100-mark distribution.
   - Automatic cumulative total calculation.
   - Judge comments and feedback recording.
@@ -156,18 +115,18 @@
 
 Every participating team is evaluated live by faculty judges based on the following official 100-point distribution:
 
-| # | Evaluation Criterion | Max Marks | Description & Key Focus |
-|:---:|:---|:---:|:---|
-| **01** | **UI/UX & Mobile Responsiveness** | **10 Pts** | Clean visual hierarchy, mobile layout, accessibility, intuitive navigation. |
-| **02** | **Authentication & Security** | **15 Pts** | Registration, login, logout, password hashing, and protected route guards. |
-| **03** | **Database & Full CRUD Operations** | **20 Pts** | Persistent data storage with working Create, Read, Update, and Delete flows. |
-| **04** | **Cloud Storage File Uploads** | **10 Pts** | Secure file upload, storage bucket configuration, and image retrieval. |
-| **05** | **External API Integration** | **15 Pts** | Real-world API integration, async data fetching, error state handling. |
-| **06** | **Live Public Deployment** | **15 Pts** | Working public URL (Vercel, Render, Netlify) with zero runtime errors. |
-| **07** | **Code Quality & Architecture** | **05 Pts** | Modular structure, clean code, input validation, separation of concerns. |
-| **08** | **Documentation & README** | **05 Pts** | Setup instructions, env guide, process screenshots, and GitHub structure. |
-| **09** | **Live Demo & Code Defense** | **05 Pts** | Live jury demonstration; explaining architecture and answering technical questions. |
-| **TOTAL** | **Cumulative Maximum Score** | **100 Pts** | **Final Hackathon Standing** |
+|        #        | Evaluation Criterion                      |     Max Marks     | Description & Key Focus                                                             |
+| :-------------: | :---------------------------------------- | :---------------: | :---------------------------------------------------------------------------------- |
+|  **01**  | **UI/UX & Mobile Responsiveness**   | **10 Pts** | Clean visual hierarchy, mobile layout, accessibility, intuitive navigation.         |
+|  **02**  | **Authentication & Security**       | **15 Pts** | Registration, login, logout, password hashing, and protected route guards.          |
+|  **03**  | **Database & Full CRUD Operations** | **20 Pts** | Persistent data storage with working Create, Read, Update, and Delete flows.        |
+|  **04**  | **Cloud Storage File Uploads**      | **10 Pts** | Secure file upload, storage bucket configuration, and image retrieval.              |
+|  **05**  | **External API Integration**        | **15 Pts** | Real-world API integration, async data fetching, error state handling.              |
+|  **06**  | **Live Public Deployment**          | **15 Pts** | Working public URL (Vercel, Render, Netlify) with zero runtime errors.              |
+|  **07**  | **Code Quality & Architecture**     | **05 Pts** | Modular structure, clean code, input validation, separation of concerns.            |
+|  **08**  | **Documentation & README**          | **05 Pts** | Setup instructions, env guide, process screenshots, and GitHub structure.           |
+|  **09**  | **Live Demo & Code Defense**        | **05 Pts** | Live jury demonstration; explaining architecture and answering technical questions. |
+| **TOTAL** | **Cumulative Maximum Score**        | **100 Pts** | **Final Hackathon Standing**                                                  |
 
 <br />
 
@@ -176,6 +135,7 @@ Every participating team is evaluated live by faculty judges based on the follow
 ## 🛠️ Tech Stack
 
 ### Core Frameworks & Libraries
+
 - **Language & Runtime:** JavaScript (ESNext), Node.js (v18.x or v20.x+)
 - **Framework:** [Next.js 16.4.4](https://nextjs.org/) (App Router, Turbopack, Dynamic Server Routes)
 - **UI Engine:** [React 19.3.0](https://react.dev/)
@@ -184,6 +144,7 @@ Every participating team is evaluated live by faculty judges based on the follow
 - **Archiving & Compression:** [JSZip](https://stuk.github.io/jszip/)
 
 ### Backend Services & Cloud Infrastructure
+
 - **Database & Storage:** [Supabase](https://supabase.com/) (PostgreSQL Database, Storage Buckets, Row Level Security)
 - **Email Infrastructure:** [Nodemailer](https://nodemailer.com/) (Gmail SMTP / Custom SMTP)
 - **Hosting & Deployment:** [Vercel](https://vercel.com/) (Edge Middleware, Serverless Functions)
@@ -247,6 +208,7 @@ mid-term-project/
 ### Prerequisites
 
 Ensure you have the following installed on your machine:
+
 - **Node.js** `v18.17.0` or higher (Recommended: `v20.x+`)
 - **npm**, **yarn**, or **pnpm**
 - A **Supabase** account (Free Tier works out of the box)
@@ -256,28 +218,29 @@ Ensure you have the following installed on your machine:
 ### Step-by-Step Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/mwaseem3703/umme-mid-project.git
    cd umme-mid-project
    ```
-
 2. **Install project dependencies:**
+
    ```bash
    npm install
    ```
-
 3. **Configure Environment Variables:**
    Create a `.env.local` file in the root directory:
+
    ```bash
    cp .env.example .env.local
    ```
-   *(Or create a new file named `.env.local` and add the variables listed below)*.
 
+   _(Or create a new file named `.env.local` and add the variables listed below)_.
 4. **Run the local development server:**
+
    ```bash
    npm run dev
    ```
-
 5. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000) to view the portal.
 
@@ -380,7 +343,7 @@ CREATE TABLE IF NOT EXISTS public.evaluations (
 );
 
 -- 5. Storage Bucket for Task & Code Files
-INSERT INTO storage.buckets (id, name, public) 
+INSERT INTO storage.buckets (id, name, public)
 VALUES ('task-files', 'task-files', true)
 ON CONFLICT (id) DO NOTHING;
 ```
