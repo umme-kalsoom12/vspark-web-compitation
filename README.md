@@ -1,12 +1,32 @@
+<div align="center">
 
+# ⚡ VSPARK 2026 — Web Development Competition & Evaluation Portal
+
+**The Official National Hackathon, Submission, and Automated Evaluation Management System**  
+_COMSATS University Islamabad, Vehari Campus — Department of Computer Science_
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.4.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.3.0-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database_&_Auth-3ecf8e?style=for-the-badge&logo=supabase)](https://supabase.com/)
+[![Nodemailer](https://img.shields.io/badge/Nodemailer-SMTP_System-22c55e?style=for-the-badge&logo=gmail)](https://nodemailer.com/)
+[![Live App](https://img.shields.io/badge/Live_Portal-vspark--comp--web.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vspark-comp-web.vercel.app/)
+[![License](https://img.shields.io/badge/License-Academic_Use-purple?style=for-the-badge)](#license)
+
+<br />
+
+### 🌐 Live Production URL: [https://vspark-comp-web.vercel.app/](https://vspark-comp-web.vercel.app/)
+
+---
+
+### 🎬 Live Demo & Video Walkthrough
 
 https://github.com/user-attachments/assets/fbf5b671-37e3-4f38-978f-58c30fe4a80b
 
 
+---
 
-
-
-<div align="center">
+</div>
 
 <br />
 
@@ -123,18 +143,18 @@ https://github.com/user-attachments/assets/fbf5b671-37e3-4f38-978f-58c30fe4a80b
 
 Every participating team is evaluated live by faculty judges based on the following official 100-point distribution:
 
-|        #        | Evaluation Criterion                      |     Max Marks     | Description & Key Focus                                                             |
-| :-------------: | :---------------------------------------- | :---------------: | :---------------------------------------------------------------------------------- |
-|  **01**  | **UI/UX & Mobile Responsiveness**   | **10 Pts** | Clean visual hierarchy, mobile layout, accessibility, intuitive navigation.         |
-|  **02**  | **Authentication & Security**       | **15 Pts** | Registration, login, logout, password hashing, and protected route guards.          |
-|  **03**  | **Database & Full CRUD Operations** | **20 Pts** | Persistent data storage with working Create, Read, Update, and Delete flows.        |
-|  **04**  | **Cloud Storage File Uploads**      | **10 Pts** | Secure file upload, storage bucket configuration, and image retrieval.              |
-|  **05**  | **External API Integration**        | **15 Pts** | Real-world API integration, async data fetching, error state handling.              |
-|  **06**  | **Live Public Deployment**          | **15 Pts** | Working public URL (Vercel, Render, Netlify) with zero runtime errors.              |
-|  **07**  | **Code Quality & Architecture**     | **05 Pts** | Modular structure, clean code, input validation, separation of concerns.            |
-|  **08**  | **Documentation & README**          | **05 Pts** | Setup instructions, env guide, process screenshots, and GitHub structure.           |
-|  **09**  | **Live Demo & Code Defense**        | **05 Pts** | Live jury demonstration; explaining architecture and answering technical questions. |
-| **TOTAL** | **Cumulative Maximum Score**        | **100 Pts** | **Final Hackathon Standing**                                                  |
+|     #     | Evaluation Criterion                |  Max Marks  | Description & Key Focus                                                             |
+| :-------: | :---------------------------------- | :---------: | :---------------------------------------------------------------------------------- |
+|  **01**   | **UI/UX & Mobile Responsiveness**   | **10 Pts**  | Clean visual hierarchy, mobile layout, accessibility, intuitive navigation.         |
+|  **02**   | **Authentication & Security**       | **15 Pts**  | Registration, login, logout, password hashing, and protected route guards.          |
+|  **03**   | **Database & Full CRUD Operations** | **20 Pts**  | Persistent data storage with working Create, Read, Update, and Delete flows.        |
+|  **04**   | **Cloud Storage File Uploads**      | **10 Pts**  | Secure file upload, storage bucket configuration, and image retrieval.              |
+|  **05**   | **External API Integration**        | **15 Pts**  | Real-world API integration, async data fetching, error state handling.              |
+|  **06**   | **Live Public Deployment**          | **15 Pts**  | Working public URL (Vercel, Render, Netlify) with zero runtime errors.              |
+|  **07**   | **Code Quality & Architecture**     | **05 Pts**  | Modular structure, clean code, input validation, separation of concerns.            |
+|  **08**   | **Documentation & README**          | **05 Pts**  | Setup instructions, env guide, process screenshots, and GitHub structure.           |
+|  **09**   | **Live Demo & Code Defense**        | **05 Pts**  | Live jury demonstration; explaining architecture and answering technical questions. |
+| **TOTAL** | **Cumulative Maximum Score**        | **100 Pts** | **Final Hackathon Standing**                                                        |
 
 <br />
 
@@ -231,11 +251,13 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/mwaseem3703/umme-mid-project.git
    cd umme-mid-project
    ```
+
 2. **Install project dependencies:**
 
    ```bash
    npm install
    ```
+
 3. **Configure Environment Variables:**
    Create a `.env.local` file in the root directory:
 
@@ -244,11 +266,13 @@ Ensure you have the following installed on your machine:
    ```
 
    _(Or create a new file named `.env.local` and add the variables listed below)_.
+
 4. **Run the local development server:**
 
    ```bash
    npm run dev
    ```
+
 5. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000) to view the portal.
 
@@ -401,5 +425,8 @@ Developed for and organized by:
 ---
 
 <div align="center">
+  <sub>Built with ❤️ for passionate student developers and future engineers.</sub>
+</div>
+
   <sub>Built with ❤️ for passionate student developers and future engineers.</sub>
 </div>
