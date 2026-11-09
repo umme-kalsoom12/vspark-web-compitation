@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ VSPARK 2026 — Web Development Competition & Evaluation Portal
+# ⚡ VSPARK 2026 — Web Development Competition & Evaluation portal
 
 **The Official National Hackathon, Submission, and Automated Evaluation Management System**  
 _COMSATS University Islamabad, Vehari Campus — Department of Computer Science_
